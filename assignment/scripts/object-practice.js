@@ -10,6 +10,16 @@ console.log('***** Object Practice *****')
 */
 const me = {
   // TODO - add properties here
+  firstName: 'E',
+  lastName: 'Rider',
+  // Place a boolean
+  Boolean(hasSiblings){
+   console.log('I have 1 sibling')
+  },
+  //Let numeric shoe count be whatever
+  shoeCount: 4,
+  // An array of fa three foods
+  faveThreeFoods: ['Soup', 'Chip', 'Taco']
 };
 console.log('A little about me:', me);
 
